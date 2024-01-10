@@ -1,0 +1,75 @@
+body {
+    background-image: radial-gradient(circle at 8.23% 50%, #192c2b 0, #152221 16.67%, #0f1615 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+}
+
+header {
+    padding: 20px;
+}
+
+li {
+    border-radius: 30px;
+padding: 5px;
+    height: 40px;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    flex-flow: row;
+    
+}
+
+li:hover {
+    background: rgb(29, 29, 88);
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    border-radius: 15rem;
+    padding: 20px;
+}
+
+.perfil {
+    display: flex;
+    flex-flow: row-reverse;
+
+
+}
+
+.perfil>p {
+    color: white;
+    font-size: 20px;
+    padding: 60px;
+}
+
+.robby {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.robby>h3 {
+
+    color: white;
+    font-size: 40px;
+}
+
+.robby>p {
+
+    color: white;
+    font-size: 30px;
+}
+
+iframe {
+    width: 450px;
+    border-radius: 10px;
+}
