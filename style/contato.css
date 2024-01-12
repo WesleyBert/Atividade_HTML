@@ -1,0 +1,162 @@
+/* Resetando as config. padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+
+    font-family: 'Poppins', sans-serif;
+    /* Definindo a Fonte de Texto do Projeto*/
+}
+
+body {
+    background-image: radial-gradient(circle at 8.23% 50%, #192c2b 0, #152221 16.67%, #0f1615 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+}
+
+header {
+    padding: 20px;
+}
+
+li {
+    border-radius: 30px;
+    padding: 5px;
+    height: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+
+}
+
+li:hover {
+    background: rgb(29, 29, 88);
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    border-radius: 15rem;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border: solid 1px;
+    border-radius: 30px;
+}
+
+.form-info label {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.form-info input {
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.form-info textarea {
+    margin: 8px 0 16px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn {
+    text-align: center;
+    padding: 12px 32px;
+    /* Definindo espaçamento interno de 12px acima e abaixo e 32px nas laterais */
+    background: none;
+    /* Sem background */
+    border: 1px solid rgb(90, 85, 85);
+    /* Borda com 1px, com a linha solida e cor roxa */
+    color: var(--white);
+    border-radius: 10px;
+    /* Deixa a borda das tags arredondadas */
+    font-weight: 700;
+    /* Deixa a fonte em negrito*/
+}
+
+.btn:hover {
+    background: rgb(77, 75, 75);
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+.social_container {
+    display: flex;
+    margin: 32px 0 0 0;
+    width: 320px;
+}
+
+.social_icon {
+    width: 10rem;
+    height: 10rem;
+    filter: invert();
+    /* Invertemos a cor natural dos icones, de branco para preto */
+}
+
+.social_icon:hover {
+    /* ao passar o mouse, os ícones terão suas cores mudadas para roxo, fazemos dessa forma pois os icones são arquivos .SVG*/
+    filter: brightness(0) saturate(100%) invert(29%) sepia(31%) saturate(5190%) hue-rotate(249deg) brightness(79%) contrast(99%);
+}
+
+/* CONFIGURAÇÃO PARA A BARRRA DE ROLAGEM */
+body::-webkit-scrollbar {
+    width: 8px;
+    /* largura da Scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--black-800);
+    /* cor do plano de fundo da Scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--purple-500);
+    /* cor do scroll */
+    border-radius: 20px;
+    /* borda do scroll */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    /* modo de organização de elementos: Flex*/
+    justify-content: center;
+    /* alinhamento horizontal */
+    align-items: center;
+    /* alinhamento vertical */
+}
