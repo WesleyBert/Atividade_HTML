@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/contato.css">
     <title>contato</title>
 </head>
 
 <body>
     <header>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-    </ul>
-    <h1>Entre em contato comigo!</h1>
-    <a href="https://www.linkedin.com/in/wesley-berto/">linkedin</a><br>
-    <a href="https://github.com/WesleyBert">Github</a>
-
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        </ul>
+        <h1>Entre em contato comigo!</h1>
     </header>
 
+    <section class="form">
+        <form class="form-info">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
 
-    <h2>Me deixe entrar em contato com você!</h2>
-    <form>
-        <label for="nome">nome</label>
-        <input type="text"><br><br>
+            <label for="nome">Email</label>
+            <input type="text">
 
-        <label for="nome">email</label>
-        <input type="text"><br><br>
-
-        <label for="Assunto">Assunto</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-    </form>
+            <label for="Assunto">Assunto</label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <button class="btn">Enviar</button>
+        </form>
+    </section>
+    <section id="social">
+        <div class="social_container">
+            <a href="wesleyBert (Wesley Berto)">
+                <img class="social_icon" src="https://img.icons8.com/ios/500/github--v1.png" alt="Logo do Github" />
+                <!-- Adicione aqui as CLASSES -->
+            </a>
+            <a href="https://www.linkedin.com/in/wesley-berto/">
+                <img class="social_icon" src="https://img.icons8.com/ios/500/instagram-new--v1.png"
+                    alt="Logo do Instagram" />
+                <!-- Adicione aqui as CLASSES -->
+            </a>
+        </div>
+    </section>
 </body>
+
+<script src="./script/script.js"></script>
 
 </html>
