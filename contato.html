@@ -21,14 +21,18 @@
     <section class="form">
         <form class="form-info">
             <label for="nome">Nome</label>
-            <input id="nome" type="text">
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="nomeTxt"></div>
 
             <label for="nome">Email</label>
-            <input type="text">
+            <input type="text" id="email" onkeyup="validaEmail()">
+            <div id="emailTxt"></div>
 
             <label for="Assunto">Assunto</label>
-            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-            <button class="btn">Enviar</button>
+            <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+            <div id="assuntoTxt"></div>
+
+            <button class="btn" onclick="validarEnviar()">Enviar</button>
         </form>
     </section>
     <section id="social">
@@ -44,6 +48,9 @@
             </a>
         </div>
     </section>
+    <footer>
+        Feito por wesley berto ✌ - 2024
+    </footer>
 </body>
 
 <script src="./script/script.js"></script>

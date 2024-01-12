@@ -104,7 +104,8 @@ img {
 .btn:hover {
     background: rgb(77, 75, 75);
 }
-#social{
+
+#social {
     display: flex;
     justify-content: center;
 }
@@ -149,4 +150,13 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.flex {
+    display: flex;
+    /* modo de organização de elementos: Flex*/
+    justify-content: center;
+    /* alinhamento horizontal */
+    align-items: center;
+    /* alinhamento vertical */
 }
